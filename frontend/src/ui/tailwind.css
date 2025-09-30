@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { --bg:#0b0f14; --card:#121821; --muted:#8aa; --txt:#e6eef7; --accent:#7cc; }
+body { background: var(--bg); color: var(--txt); }
+.card { @apply rounded-2xl border border-slate-700/50 bg-slate-900/60 p-4; }
+.btn { @apply rounded-xl border border-slate-700/50 bg-slate-800 px-3 py-2; }
